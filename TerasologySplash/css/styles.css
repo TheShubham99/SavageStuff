@@ -1,0 +1,130 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+blockquote {
+  border-left: 5px solid #388E3C;
+}
+
+footer.page-footer {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+p img {
+  max-width: 100%;
+}
+
+.brand-logo img {
+  height: 56px;
+}
+
+.welcome {
+  margin-left: 25px;
+}
+
+.mascot img {
+  width: 100%;
+  margin-top: -75px;
+}
+
+.acme {
+  font-display: auto;
+  font-family: 'Acme', sans-serif;
+}
+
+.dc {
+  background-image: url("../img/dc.png");
+}
+
+.fwidth {
+  width: 100%;
+}
+
+.text-container {
+  font-size: 18px;
+}
+
+.img-margin {
+  margin: 10px;
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  font-size: 2.82rem;
+}
+
+h2 {
+  font-size: 2.00rem;
+}
+
+h3 {
+  font-size: 1.41rem;
+}
+
+h4 {
+  font-size: 1.19rem;
+}
+
+h5 {
+  font-size: 1.00rem;
+}
+
+h5 {
+  font-size: 0.84rem;
+}
+
+/* For iframe videos */
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nojs{
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   bottom: 0;
+   right:0;
+   left:0;
+   width:100%;
+}
+.nojs img{
+  display:block;
+  position:absolute;
+  left:0%;
+  bottom:0;
+  min-width:100%;
+  min-height:100%;
+  transform:translateX(-50%);
+  transform: translateY(37%);
+
+}
+.nojs2 img{
+  width:100%;
+  position: absolute;
+  z-index:-1;
+}

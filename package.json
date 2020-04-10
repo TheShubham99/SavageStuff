@@ -1,0 +1,25 @@
+{
+  "name": "pratham.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheShubham99/Pratham.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheShubham99/Pratham.github.io/issues"
+  },
+  "homepage": "https://github.com/TheShubham99/Pratham.github.io#readme",
+  "dependencies": {
+    "jsonfile": "^6.0.1",
+    "moment": "^2.24.0",
+    "random": "^2.2.0",
+    "simple-git": "^1.132.0"
+  }
+}
